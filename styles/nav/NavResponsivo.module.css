@@ -110,7 +110,7 @@ input:checked~label .container {
         display: flex;
         width: 100%;
         flex-direction: column;
-        background-color: #1c1b22;
+        background-color: #01234d;
     }
 
     .ul2 li {
