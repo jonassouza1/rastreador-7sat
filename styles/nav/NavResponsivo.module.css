@@ -127,7 +127,7 @@ input:checked~label .container {
         display: flex;
         flex-direction: column;
         position: absolute;
-        top: 245px;
+        top: 345px;
         right: 10px;
         z-index: 10;
 

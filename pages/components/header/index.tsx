@@ -5,10 +5,18 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <div className={styles.divImg}>
-        <img
-          src="https://img.freepik.com/fotos-gratis/modelo-editavel-psd-com-efeito-de-texto-em-relevo-na-textura-do-papel-verso_53876-128726.jpg"
-          alt="logo marca"
-        />
+        <img src="/logo.png" alt="logo marca" />
+      </div>
+      <div className={styles.animatedheader}>
+        <h1>RASTREAMENTO</h1>
+        <span>V</span>
+        <span>E</span>
+        <span>I</span>
+        <span>C</span>
+        <span>U</span>
+        <span>L</span>
+        <span>A</span>
+        <span>R</span>
       </div>
       <Nav />
     </header>

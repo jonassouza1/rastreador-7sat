@@ -20,7 +20,7 @@ const NavResponsive = () => {
         <li>
           <a href="#SectionServices">Serviços</a>
 
-          <a href="#footer">Contato</a>
+          <a href="#contato">Contato</a>
         </li>
       </ul>
     </div>

@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 300px;
+    height: 400px;
     align-items: center;
     justify-content: space-between;
 
@@ -13,15 +13,95 @@
 .divImg {
     display: flex;
     margin-top: 25px;
-    height: 200px;
-    width: 550px;
+    height: 220px;
+    width: 450px;
+
 
 }
 
+.animatedheader {
+    color: #d2caff;
+    text-align: center;
+}
+
+.animatedheader span {
+    font-size: 40px;
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(-100px);
+    animation: dropIn 12s forwards infinite;
+}
+
+/* Animação */
+@keyframes dropIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+
+    10% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    90% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+}
+
+/* Atraso incremental */
+.animatedheader span:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.animatedheader span:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.animatedheader span:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+.animatedheader span:nth-child(4) {
+    animation-delay: 0.6s;
+}
+
+.animatedheader span:nth-child(5) {
+    animation-delay: 0.8s;
+}
+
+.animatedheader span:nth-child(6) {
+    animation-delay: 1.0s;
+}
+
+.animatedheader span:nth-child(7) {
+    animation-delay: 1.2s;
+}
+
+.animatedheader span:nth-child(8) {
+    animation-delay: 1.4s;
+}
 
 
 @media(max-width:710px) {
     .divImg {
         max-width: 90%;
+    }
+
+}
+
+@media(max-width:300px) {
+    .animatedheader h1 {
+        font-size: 20px;
+    }
+
+    .animatedheader span {
+        font-size: 25px;
     }
 }
