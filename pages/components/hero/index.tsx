@@ -7,8 +7,6 @@ const Hero = () => {
     { id: "2", image: "/notebook.jpg" },
     { id: "3", image: "/celular.jpg" },
     { id: "4", image: "/rastreador.jpg" },
-    { id: "5", image: "/products.jpg" },
-    { id: "6", image: "/supermarket.jpg" },
   ];
 
   return (

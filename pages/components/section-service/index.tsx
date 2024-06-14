@@ -46,6 +46,33 @@ const SectionService = () => {
         </ul>
       </div>
 
+      <ul className={styles.ul2}>
+        <li>
+          <img src="/homologado.png" alt="seguranaça veicular" />
+          <div className={styles.divText}>
+            <span>RASTREADORES HOMOLOGADOS PELA ANATEL</span>
+          </div>
+        </li>
+        <li>
+          <img src="/casa.png" alt="seguranaça veicular" />
+          <div className={styles.divText}>
+            <span>VAMOS ATÉ SUA CASA</span>
+          </div>
+        </li>
+        <li>
+          <img src="/cartao.png" alt="seguranaça veicular" />
+          <div className={styles.divText}>
+            <span>ACEITAMOS PARCELAMENTO NO CARTÃO</span>
+          </div>
+        </li>
+        <li>
+          <img src="/duvida.png" alt="seguranaça veicular" />
+          <div className={styles.divText}>
+            <span>PARA MAIS INFORMAÇÕES ENTRE EM CONTATO CONOSCO</span>
+          </div>
+        </li>
+      </ul>
+
       <Footer />
     </section>
   );

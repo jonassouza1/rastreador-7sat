@@ -25,7 +25,7 @@
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
-    height: 150px;
+    height: 200px;
     background: linear-gradient(360deg, #152257, #03031f);
 
 }
@@ -46,7 +46,12 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 500px;
+    height: 700px;
+    background-image: url("/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-x: right;
 }
 
 .ul {
@@ -55,31 +60,96 @@
     justify-content: space-evenly;
     align-items: flex-start;
     width: 600px;
-    height: 300px;
+    height: 400px;
     list-style: none;
+    background-color: #b8bdc5;
+    border-radius: 5px;
+    opacity: 0.8;
+    padding: 5px;
 
 }
 
 .ul li {
     display: flex;
     align-items: center;
+
+
 }
 
 .ul li img {
     margin-right: 10px;
     width: 32px;
+
 }
 
 .ul li span {
-    font-size: 20px;
+    font-size: 26px;
+    font-weight: 400;
+    color: #0e0a41;
+}
+
+
+
+.ul2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+    height: 100px;
+}
+
+.ul2 li {
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+.ul2 li img {
+    width: 60px;
+    margin-right: 5px;
+}
+
+.ul2 .divText {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
     color: #fff;
 }
 
 
+@media (max-width:1100px) {
+    .ul2 li img {
+        width: 50px;
 
-@media (max-width:540px) {
+    }
+
+    .ul2 .divText {
+
+        font-size: 14px;
+        font-weight: 600;
+
+    }
+}
+
+@media (max-width:870px) {
+
+    .ul2 {
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 270px;
+    }
+}
+
+@media (max-width:640px) {
+    .ul {
+        width: 95%;
+    }
+
     .divTitle {
-        height: 180px;
+
         text-align: center;
     }
 
@@ -106,4 +176,29 @@
         font-size: 20px;
     }
 
+    .ul {
+        height: 450px;
+    }
+
+    .ul li span {
+        font-size: 20px;
+
+    }
+}
+
+@media (max-width:300px) {
+
+
+    .ul2 li img {
+        max-width: 40px;
+
+    }
+
+    .ul2 .divText {
+
+        font-size: 12px;
+        font-weight: 600;
+        max-width: 160px;
+
+    }
 }
