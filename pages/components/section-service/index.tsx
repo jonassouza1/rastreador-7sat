@@ -3,14 +3,17 @@ import Footer from "../footer";
 const SectionService = () => {
   return (
     <section className={styles.section}>
-      <div className={styles.divImg}>
-        <img src="/logo.png" alt="logo imagem" />
-      </div>
-      <div className={styles.divTitle}>
-        <h2>Se o seu veículo fosse roubado</h2>
-        <h2>você gostaria de localizá-lo em minutos?</h2>
-        <h3>Com nossos serviços de rastreamento</h3>
-        <h3>isso é possível!</h3>
+      <div className={styles.container}>
+        <div className={styles.divTitle}>
+          <h2>Se o seu veículo fosse roubado</h2>
+          <h2>você gostaria de localizá-lo em minutos?</h2>
+          <h3>Com nossos serviços de rastreamento</h3>
+          <h3>isso é possível!</h3>
+        </div>
+
+        <div className={styles.divImg}>
+          <img src="/logo.png" alt="logo imagem" />
+        </div>
       </div>
 
       <div className={styles.divUl}>

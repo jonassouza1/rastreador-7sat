@@ -4,21 +4,28 @@ import Nav from "../nav";
 const Header = () => {
   return (
     <header className={styles.header}>
+      <Nav />
       <div className={styles.divImg}>
         <img src="/logo.png" alt="logo marca" />
       </div>
+
+      <h1>Monitore</h1>
+      <p>SEU</p>
+      <span className={styles.animatedsubtitle}>
+        <img
+          className={styles.ponteiro}
+          src="/ponteiro.png"
+          alt="ponteiro de localização"
+        />
+        <img className={styles.car} src="/car.png" alt="veiculo" />
+      </span>
+      <h2>Com</h2>
       <div className={styles.animatedheader}>
-        <h1>RASTREAMENTO</h1>
-        <span>V</span>
-        <span>E</span>
-        <span>I</span>
-        <span>C</span>
-        <span>U</span>
-        <span>L</span>
-        <span>A</span>
-        <span>R</span>
+        <span className={styles.t}>7</span>
+        <span>S</span>
+        <span className={styles.a}>A</span>
+        <span>T</span>
       </div>
-      <Nav />
     </header>
   );
 };

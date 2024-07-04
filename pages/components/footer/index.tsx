@@ -6,7 +6,7 @@ const Footer = () => {
       <ul className={styles.ul}>
         <li>
           <a
-            href="https://api.whatsapp.com/send?phone=555196848538&text=Olá%20Gostaria%20de%20mais%20informações"
+            href="https://api.whatsapp.com/send?phone=5551997782938&text=Olá%20Gostaria%20de%20mais%20informações"
             target="_blank"
           >
             <i
@@ -16,7 +16,7 @@ const Footer = () => {
           </a>
         </li>
         <li>
-          <a href="##">
+          <a href="https://www.facebook.com/people/SevenSat-Rastreamento/100043691811416/?ref=embed_page">
             <i
               className="fa-brands fa-square-facebook"
               style={{ color: "#1877F2" }}
@@ -34,11 +34,12 @@ const Footer = () => {
       </ul>
 
       <div className={styles.divAddress} id="contato">
-        <small>Copyright © 2023-2024 Slack.com.br LTDA.</small>
+        <small>Copyright © 2023-2024 www.7satrastreamento.com LTDA.</small>
 
         <p>
-          CNPJ: 00.000.000/0000-00 / Av. dos municipios, 0.000 , Campo Bom/RS -
-          CEP 937-000-00 - Empresa slack.
+          CNPJ: 00.000.000/0000-00 / R. Maria Olinda Telles, 900-Canudos, Novo
+          Hamburgo - CEP 93546-060 - Empresa 7SAT fone: 51 99778-2938 / 51
+          99909-8314.
         </p>
       </div>
     </footer>

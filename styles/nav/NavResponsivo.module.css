@@ -110,7 +110,7 @@ input:checked~label .container {
         display: flex;
         width: 100%;
         flex-direction: column;
-        background-color: #01234d;
+        background-color: #171a1d;
     }
 
     .ul2 li {
@@ -120,14 +120,14 @@ input:checked~label .container {
     }
 
     .ul2 li a:hover {
-        color: rgb(253, 198, 57);
+        color: rgb(253, 168, 57);
     }
 
     .container {
         display: flex;
         flex-direction: column;
         position: absolute;
-        top: 345px;
+
         right: 10px;
         z-index: 10;
 

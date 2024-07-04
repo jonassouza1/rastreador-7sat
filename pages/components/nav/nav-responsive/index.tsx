@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "styles/nav/NavResponsivo.module.css";
+import Link from "next/link";
 
 const NavResponsive = () => {
   return (
@@ -18,9 +19,13 @@ const NavResponsive = () => {
 
       <ul className={styles.ul2}>
         <li>
-          <a href="#SectionServices">Serviços</a>
+          <Link href="/components/section-service" target="_blank">
+            SERVIÇOS
+          </Link>
 
-          <a href="#contato">Contato</a>
+          <Link href="/components/section-contat" target="_blank">
+            CONTATO
+          </Link>
         </li>
       </ul>
     </div>

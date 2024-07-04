@@ -2,34 +2,149 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 400px;
+    height: 600px;
     align-items: center;
     justify-content: space-between;
 
-    background: linear-gradient(360deg, #4a68ec, #03031f);
+    background: linear-gradient(180deg, #c4d7fc, #05070f);
 
 }
 
 .divImg {
     display: flex;
-    margin-top: 25px;
-    height: 220px;
-    width: 450px;
+
+    height: 200px;
+    width: 500px;
 
 
 }
 
 .animatedheader {
-    color: #d2caff;
+
+
     text-align: center;
+
+    margin-bottom: 10px;
+
 }
 
+
+.header h1 {
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    color: #6b4e10;
+}
+
+.header h2 {
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: 7px;
+    color: #a18a57;
+}
+
+.header p {
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 10px;
+    color: #161411;
+}
+
+
+
+
+
+.animatedsubtitle {
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    animation: slide-pause 15s infinite;
+
+}
+
+.animatedsubtitle .ponteiro {
+    width: 30px;
+    margin-bottom: -25px;
+}
+
+.animatedsubtitle .car {
+    margin-bottom: -20px;
+}
+
+.animatedsubtitle img {
+    width: 100%;
+
+}
+
+@keyframes slide-pause {
+
+    0%,
+    16.67% {
+        opacity: 0;
+    }
+
+    33.33%,
+    66.67% {
+        opacity: 1;
+    }
+
+    83.33%,
+    100% {
+        opacity: 0;
+    }
+}
+
+
+
+.animatedsubtitle:last-of-type {
+    animation-name: slide-from-right;
+}
+
+@keyframes slide-from-right {
+    0% {
+        transform: translateX(100vw);
+        opacity: 0;
+    }
+
+    16.67% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    66.67% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    83.33%,
+    100% {
+        transform: translateX(-100vw);
+        opacity: 0;
+    }
+}
+
+
+
 .animatedheader span {
-    font-size: 40px;
+    letter-spacing: 5px;
+    font-size: 50px;
+    font-weight: 600;
     display: inline-block;
     opacity: 0;
+    font-family: "Stardos Stencil", system-ui;
     transform: translateY(-100px);
     animation: dropIn 12s forwards infinite;
+    color: #ffffff;
+}
+
+.animatedheader .t {
+    font-family: sans-serif;
+    font-size: 65px;
+}
+
+.animatedheader .a {
+    color: #f06e05;
 }
 
 /* Animação */
@@ -72,26 +187,11 @@
     animation-delay: 0.6s;
 }
 
-.animatedheader span:nth-child(5) {
-    animation-delay: 0.8s;
-}
-
-.animatedheader span:nth-child(6) {
-    animation-delay: 1.0s;
-}
-
-.animatedheader span:nth-child(7) {
-    animation-delay: 1.2s;
-}
-
-.animatedheader span:nth-child(8) {
-    animation-delay: 1.4s;
-}
 
 
 @media(max-width:710px) {
     .divImg {
-        max-width: 90%;
+        max-width: 99%;
     }
 
 }

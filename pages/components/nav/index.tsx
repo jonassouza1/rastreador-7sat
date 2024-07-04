@@ -10,7 +10,9 @@ const Nav = () => {
             SERVIÇOS
           </Link>
 
-          <a href="#contato">CONTATO</a>
+          <Link href="/components/section-contat" target="_blank">
+            CONTATO
+          </Link>
         </li>
       </ul>
       <NavResponsive />

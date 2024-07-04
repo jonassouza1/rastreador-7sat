@@ -3,10 +3,14 @@ import { useState } from "react";
 import styles from "styles/hero/Hero.module.css";
 const Hero = () => {
   const images = [
-    { id: "1", image: "/carro.jpg" },
-    { id: "2", image: "/notebook.jpg" },
-    { id: "3", image: "/celular.jpg" },
-    { id: "4", image: "/rastreador.jpg" },
+    { id: "1", image: "/carro.jpg", text: "RASTREAMENTO VEICULAR" },
+    { id: "2", image: "/notebook.jpg", text: "LOCALIZAÇÃO EM TEMPO REAL" },
+    { id: "3", image: "/celular.jpg", text: "APLICATIVO COM INFORMAÇÕES" },
+    {
+      id: "4",
+      image: "/rastreador.jpg",
+      text: "TODO O CONTROLE QUE CABE NA PALMA DE SUA MÃO",
+    },
   ];
 
   return (
@@ -23,7 +27,10 @@ const Hero = () => {
         >
           {images.map((el) => (
             <SwiperSlide key={el.id}>
-              <img src={el.image} alt="images marketing" />
+              <div className={styles.slideContent}>
+                <img src={el.image} alt="images marketing" />
+                <p className={styles.descript}>{el.text}</p>
+              </div>
             </SwiperSlide>
           ))}
         </Swiper>
