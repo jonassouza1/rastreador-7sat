@@ -13,6 +13,7 @@ const Nav = () => {
           <Link href="/components/section-contat" target="_blank">
             CONTATO
           </Link>
+          <a href="#confira">CONFIRA</a>
         </li>
       </ul>
       <NavResponsive />

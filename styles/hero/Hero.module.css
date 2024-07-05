@@ -34,6 +34,11 @@
     z-index: 3;
 }
 
+.divCarousel div::after {
+    color: rgb(29, 26, 20);
+    font-size: 35px;
+}
+
 .divCarousel span {
     height: 7px;
     width: 7px;

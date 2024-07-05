@@ -16,7 +16,10 @@ const Footer = () => {
           </a>
         </li>
         <li>
-          <a href="https://www.facebook.com/people/SevenSat-Rastreamento/100043691811416/?ref=embed_page">
+          <a
+            href="https://www.facebook.com/people/SevenSat-Rastreamento/100043691811416/?ref=embed_page"
+            target="_blank"
+          >
             <i
               className="fa-brands fa-square-facebook"
               style={{ color: "#1877F2" }}
@@ -24,7 +27,10 @@ const Footer = () => {
           </a>
         </li>
         <li>
-          <a href="https://www.oloko" target="_blank">
+          <a
+            href="https://www.instagram.com/7sat_rastreamento/"
+            target="_blank"
+          >
             <i
               className="fa-brands fa-square-instagram"
               style={{ color: "#de0d45" }}
@@ -37,7 +43,7 @@ const Footer = () => {
         <small>Copyright © 2023-2024 www.7satrastreamento.com LTDA.</small>
 
         <p>
-          CNPJ: 00.000.000/0000-00 / R. Maria Olinda Telles, 900-Canudos, Novo
+          CNPJ: 36.069.454/0001-66 / R. Maria Olinda Telles, 900-Canudos, Novo
           Hamburgo - CEP 93546-060 - Empresa 7SAT fone: 51 99778-2938 / 51
           99909-8314.
         </p>

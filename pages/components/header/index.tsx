@@ -6,7 +6,7 @@ const Header = () => {
     <header className={styles.header}>
       <Nav />
       <div className={styles.divImg}>
-        <img src="/logo.png" alt="logo marca" />
+        <img src="/logo1.png" alt="logo marca" />
       </div>
 
       <h1>Monitore</h1>
