@@ -5,9 +5,9 @@ const SectionService = () => {
     <section className={styles.section}>
       <div className={styles.container}>
         <div className={styles.divTitle}>
-          <h2>Se o seu veículo fosse roubado</h2>
+          <h2>Se o seu veículo fosse roubado,</h2>
           <h2>você gostaria de localizá-lo em minutos?</h2>
-          <h3>Com nossos serviços de rastreamento</h3>
+          <h3>Com nossos serviços de rastreamento,</h3>
           <h3>isso é possível!</h3>
         </div>
 

@@ -14,7 +14,7 @@
     align-items: center;
     width: 100%;
     height: 600px;
-    background: linear-gradient(360deg, #ccddff, #070813);
+    background-color: #fff;
 }
 
 .divImg {
@@ -41,8 +41,8 @@
 }
 
 .divTitle h2 {
-    font-size: 26px;
-    color: #fff;
+    font-size: 30px;
+    color: #383838;
 }
 
 .divTitle h3 {
@@ -72,7 +72,7 @@
     width: 600px;
     height: 400px;
     list-style: none;
-    background-color: #b8bdc5;
+    background-color: #d3d3d3;
     border-radius: 5px;
     opacity: 0.8;
     padding: 5px;
@@ -107,7 +107,7 @@
     list-style: none;
     width: 100%;
     height: 100px;
-    background: linear-gradient(180deg, #e0e2ff, #060611);
+    background-color: #fff;
 }
 
 .ul2 li {
@@ -127,7 +127,7 @@
     width: 200px;
     font-size: 16px;
     font-weight: 600;
-    color: #fff;
+    color: #000000;
 }
 
 
@@ -139,6 +139,7 @@
 
     .divTitle {
         width: 95%;
+        height: 400px;
     }
 
     .ul2 li img {
@@ -184,13 +185,7 @@
 
 
 @media (max-width:375px) {
-    .divTitle h2 {
-        font-size: 25px;
-    }
 
-    .divTitle h3 {
-        font-size: 26px;
-    }
 
 
     .ul {
@@ -207,11 +202,11 @@
 @media (max-width:300px) {
 
     .divTitle h2 {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .divTitle h3 {
-        font-size: 26px;
+        font-size: 28px;
     }
 
     .ul2 li img {

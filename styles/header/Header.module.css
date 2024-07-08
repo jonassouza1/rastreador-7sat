@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: space-between;
 
-    background: linear-gradient(180deg, #c4d7fc, #05070f);
+    background-color: #ffffff;
     overflow: hidden;
     /* Adiciona overflow: hidden ao container */
     position: relative;
@@ -34,17 +34,17 @@
 
 
 .header h1 {
-    font-size: 25px;
+    font-size: 35px;
     font-weight: 400;
     letter-spacing: 5px;
     color: #6b4e10;
 }
 
 .header h2 {
-    font-size: 26px;
+    font-size: 28px;
     font-weight: 400;
     letter-spacing: 7px;
-    color: #a18a57;
+    color: #8d691d;
 }
 
 .header p {
@@ -140,7 +140,7 @@
     font-family: "Stardos Stencil", system-ui;
     transform: translateY(-100px);
     animation: dropIn 12s forwards infinite;
-    color: #ffffff;
+    color: #0a0a0a;
 }
 
 .animatedheader .t {
@@ -199,14 +199,4 @@
         max-width: 99%;
     }
 
-}
-
-@media(max-width:300px) {
-    .animatedheader h1 {
-        font-size: 20px;
-    }
-
-    .animatedheader span {
-        font-size: 25px;
-    }
 }

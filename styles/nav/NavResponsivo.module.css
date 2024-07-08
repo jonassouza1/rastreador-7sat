@@ -24,7 +24,7 @@
 .hamburger {
     display: block;
     position: relative;
-    background-color: #fff;
+    background-color: #ffffff;
     width: 30px;
     height: 2px;
     top: 29px;
@@ -39,7 +39,7 @@
     content: "";
     height: 100%;
     width: 100%;
-    background-color: #fff;
+    background-color: #ffffff;
     transition: 0.2s ease-in-out;
 }
 
