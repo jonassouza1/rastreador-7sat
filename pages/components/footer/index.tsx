@@ -6,7 +6,7 @@ const Footer = () => {
       <ul className={styles.ul}>
         <li>
           <a
-            href="https://api.whatsapp.com/send?phone=5551997782938&text=Olá%20Gostaria%20de%20mais%20informações"
+            href="https://api.whatsapp.com/send?phone=5551997782938&text=Olá!%20Gostaria%20de%20mais%20informações."
             target="_blank"
           >
             <i
