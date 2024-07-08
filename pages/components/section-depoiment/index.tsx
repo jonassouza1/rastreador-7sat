@@ -48,7 +48,7 @@ const SectionDepoiments = () => {
       <div className={styles.gradient}></div>
       <div className={styles.divTitle}>
         {" "}
-        <h2>DEPOIMENTOS</h2>
+        <h2>CLIENTES</h2>
         <img src="/logo.png" alt="logo da empresa" />
       </div>
 
