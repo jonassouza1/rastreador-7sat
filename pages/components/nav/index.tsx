@@ -14,6 +14,9 @@ const Nav = () => {
             CONTATO
           </Link>
           <a href="#confira">CONFIRA</a>
+          <Link href="/components/section-client" target="_blank">
+            ÁREA DO CLIENTE
+          </Link>
         </li>
       </ul>
       <NavResponsive />
