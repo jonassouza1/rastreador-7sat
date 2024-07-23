@@ -1,83 +1,58 @@
 .section {
 
-    position: relative;
-
-}
-
-.divCarousel {
     display: flex;
-    background-position: center top;
-    height: 700px;
-}
-
-.divCarousel .slideContent img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: filter 0.5s ease-in-out;
-}
-
-.divCarousel .slideContent img.fade {
-    filter: brightness(50%);
-    /* Ajuste o valor para clarear ou escurecer conforme necessário */
-}
-
-
-.gradient {
-    display: block;
-    background: linear-gradient(180deg, transparent, #000000);
-    bottom: 0;
-    height: 30%;
-    left: 0;
-    position: absolute;
-    width: 100%;
-    z-index: 3;
-}
-
-.divCarousel div::after {
-    color: rgb(29, 26, 20);
-    font-size: 35px;
-}
-
-.divCarousel span {
-    height: 7px;
-    width: 7px;
-    border: solid 2px #fff;
-    background-color: #000000;
-    position: relative;
-    bottom: 150px;
-    z-index: 0;
-    z-index: 10;
-}
-
-.divCarousel .slideContent {
-    display: flex;
-    width: 100%;
-    height: 100%;
+    justify-content: center;
     align-items: center;
-    flex-direction: column;
-    position: relative;
+    width: 100%;
+    height: 700px;
+    background-image: url("/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-x: right;
+
 }
 
-.divCarousel .slideContent .descript {
-    z-index: 1000;
-    font-size: 40px;
-    color: #1a1202;
-    background-color: #bdb9b6;
-    position: absolute;
-    top: 100px;
-    right: 10px;
-    border-radius: 20%;
-    opacity: 0.7;
+.divText {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    letter-spacing: 2px;
+    font-size: 20px;
+    line-height: 35px;
+    width: 600px;
+    padding: 5px 10px;
+    background-color: aliceblue;
+
+    opacity: 0.8;
 }
 
+@media(max-width:640px) {
 
-
-@media(max-width:510px) {
-    .divCarousel .slideContent .descript {
-
-        text-align: center;
-        max-width: 95%;
+    .section {
+        height: 1000px
     }
 
+    .divText {
+        width: 95%;
+        font-size: 18px;
+    }
+
+
+}
+
+@media(max-width:300px) {
+
+    .section {
+        height: 1300px;
+    }
+
+
+
+    .divText p {
+        width: 100%;
+
+        line-height: 25px;
+        padding: 0 25px;
+    }
 }

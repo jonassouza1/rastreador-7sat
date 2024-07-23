@@ -1,27 +1,32 @@
 import styles from "styles/section/SectionClient.module.css";
 import Footer from "../footer";
+import Nav from "../nav";
 
 const SectionClient = () => {
   return (
     <section className={styles.section}>
+      <Nav />
       <div className={styles.divTitle}>
-        <h2>PORTAL DO CLIENTE</h2>
+        <h2>ÁREA DO CLIENTE</h2>
       </div>
 
       <div className={styles.divLogo}>
         <img src="/logo.png" alt="" />
       </div>
-      <h3>CONTA PESSOAL</h3>
+      <h3>ACESSE SUA PLATAFORMA,</h3>
       <div className={styles.animatedtext}>
         <p>
-          <span>A</span>
           <span>c</span>
-          <span>e</span>
-          <span>s</span>
-          <span>s</span>
-          <span>e</span>
+          <span>l</span>
+          <span>i</span>
+          <span>c</span>
+          <span>a</span>
+          <span>n</span>
+          <span>d</span>
+          <span>o</span>
         </p>
         <p>
+          <span>n</span>
           <span>o</span>
           <span>s</span>
         </p>

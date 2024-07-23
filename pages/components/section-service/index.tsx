@@ -1,20 +1,14 @@
 import styles from "styles/section/SectionService.module.css";
 import Footer from "../footer";
+import SectionDepoiments from "../section-depoiment";
+import AnimationCar from "../animation-car";
+import Nav from "../nav";
+
 const SectionService = () => {
   return (
     <section className={styles.section}>
-      <div className={styles.container}>
-        <div className={styles.divTitle}>
-          <h2>Se o seu veículo fosse roubado,</h2>
-          <h2>você gostaria de localizá-lo em minutos?</h2>
-          <h3>Com nossos serviços de rastreamento,</h3>
-          <h3>isso é possível!</h3>
-        </div>
-
-        <div className={styles.divImg}>
-          <img src="/logo.png" alt="logo imagem" />
-        </div>
-      </div>
+      <Nav />
+      <AnimationCar />
 
       <div className={styles.divUl}>
         <ul className={styles.ul}>
@@ -75,7 +69,7 @@ const SectionService = () => {
           </div>
         </li>
       </ul>
-
+      <SectionDepoiments />
       <Footer />
     </section>
   );

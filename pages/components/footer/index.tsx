@@ -37,15 +37,25 @@ const Footer = () => {
             ></i>
           </a>
         </li>
+        <li>
+          <a href="mailto:7sat.rastreamento@gmail.com" target="_blank">
+            <i
+              className="fa-regular fa-envelope"
+              style={{ color: "#ffffff" }}
+            ></i>
+          </a>
+        </li>
       </ul>
 
       <div className={styles.divAddress} id="contato">
-        <small>Copyright © 2023-2024 www.7satrastreamento.com LTDA.</small>
+        <small>
+          7sat rastreamento - CNPJ:36.069.454/0001-66 -
+          Telefones:(51)99909-8314/(51)99778-2938
+        </small>
 
         <p>
-          CNPJ: 36.069.454/0001-66 / R. Maria Olinda Telles, 900-Canudos, Novo
-          Hamburgo - CEP 93546-060 - Empresa 7SAT fone: 51 99778-2938 / 51
-          99909-8314.
+          Rua Maria Olinda Telles, 900 - Bairro:Canudos - Cidade:Novo
+          Hamburgo/RS - Cep:93.546-060
         </p>
       </div>
     </footer>

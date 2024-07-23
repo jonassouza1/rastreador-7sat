@@ -1,6 +1,15 @@
 import { useState, useEffect } from "react";
 import styles from "styles/section/SectionDepoiments.module.css";
+
+import { register } from "swiper/element/bundle";
+register();
 import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
+import "swiper/css/autoplay";
+import "swiper/css/effect-fade";
 
 const SectionDepoiments = () => {
   const images = [
@@ -44,11 +53,10 @@ const SectionDepoiments = () => {
     };
   }, []);
   return (
-    <section id="confira" className={styles.section}>
+    <section className={styles.section}>
       <div className={styles.gradient}></div>
       <div className={styles.divTitle}>
-        {" "}
-        <h2>CLIENTES</h2>
+        <h2>GALERIA DE CLIENTES</h2>
         <img src="/logo.png" alt="logo da empresa" />
       </div>
 
@@ -60,7 +68,7 @@ const SectionDepoiments = () => {
           className={styles.slides}
         >
           {images.map((el) => (
-            <SwiperSlide key={el.id}>
+            <SwiperSlide key={el.id} className={styles.swiperImg}>
               <img src={el.image} alt="cliente" />
             </SwiperSlide>
           ))}

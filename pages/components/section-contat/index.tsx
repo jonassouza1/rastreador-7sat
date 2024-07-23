@@ -1,9 +1,11 @@
 import styles from "styles/section/SectionContat.module.css";
 import Footer from "../footer";
+import Nav from "../nav";
 
 const SectionContat = () => {
   return (
     <section className={styles.section}>
+      <Nav />
       <div className={styles.container}>
         <div className={styles.divTitle}>
           <h3>ENTRE EM CONTATO AGORA MESMO</h3>

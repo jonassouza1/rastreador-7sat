@@ -1,7 +1,9 @@
 .container {
-    display: flex;
+    display: none;
     justify-content: flex-end;
+
     width: 120px;
+
 }
 
 .inputHamburger {
@@ -69,8 +71,10 @@ input:checked~label .container {
     opacity: 0.9;
 }
 
+
+
 .ul2 {
-    display: none;
+
     align-items: center;
     list-style: none;
     margin-bottom: 5px;
@@ -96,6 +100,9 @@ input:checked~label .container {
 
 
 @media(max-width:900px) {
+    .container {
+        display: flex;
+    }
 
     .menu {
         display: block;
@@ -127,7 +134,7 @@ input:checked~label .container {
         display: flex;
         flex-direction: column;
         position: absolute;
-
+        top: 20px;
         right: 10px;
         z-index: 10;
 

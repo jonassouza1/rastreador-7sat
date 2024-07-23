@@ -5,26 +5,16 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <Nav />
-      <div className={styles.divImg}>
-        <img src="/logo1.png" alt="logo marca" />
-      </div>
+      <div className={styles.container}>
+        <div className={styles.divImg}>
+          <img src="/home.jpg" alt="imagem de fundo da empresa" />
+        </div>
 
-      <h1>Monitore</h1>
-      <p>SEU</p>
-      <span className={styles.animatedsubtitle}>
-        <img
-          className={styles.ponteiro}
-          src="/ponteiro.png"
-          alt="ponteiro de localização"
-        />
-        <img className={styles.car} src="/car.png" alt="veiculo" />
-      </span>
-      <h2>Com</h2>
-      <div className={styles.animatedheader}>
-        <span className={styles.t}>7</span>
-        <span>S</span>
-        <span className={styles.a}>A</span>
-        <span>T</span>
+        <div className={styles.divTitle}>
+          <h1>Sobre a</h1>
+
+          <img src="/logo.png" alt="logo da empresa 7sat" />
+        </div>
       </div>
     </header>
   );
