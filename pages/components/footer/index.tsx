@@ -49,13 +49,13 @@ const Footer = () => {
 
       <div className={styles.divAddress} id="contato">
         <small>
-          7sat rastreamento - CNPJ:36.069.454/0001-66 -
-          Telefones:(51)99909-8314/(51)99778-2938
+          7sat rastreamento - CNPJ: 36.069.454/0001-66 - Telefones:
+          (51)99909-8314 / (51)99778-2938
         </small>
 
         <p>
-          Rua Maria Olinda Telles, 900 - Bairro:Canudos - Cidade:Novo
-          Hamburgo/RS - Cep:93.546-060
+          Rua Maria Olinda Telles, 900 - Bairro: Canudos - Cidade: Novo
+          Hamburgo/RS - Cep: 93.546-060
         </p>
       </div>
     </footer>
