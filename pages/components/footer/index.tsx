@@ -58,6 +58,14 @@ const Footer = () => {
           Hamburgo/RS - Cep: 93.546-060
         </p>
       </div>
+      <a
+        href="https://jonassouza1.github.io/web-site-frontend/"
+        target="_blank"
+        className={styles.desenvolvedor}
+      >
+        <p>Contato do Desenvolvedor</p>
+        <p>deste Site</p>
+      </a>
     </footer>
   );
 };
